@@ -10,6 +10,7 @@ console.log('set2 = ', set2);
 console.log();
 
 const set3 = new Set([1, 1, 2, 2]);
+
 console.log("set3 = ", set3);
 console.log();
 
