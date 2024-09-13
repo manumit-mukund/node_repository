@@ -1,11 +1,11 @@
 
-let countValue = new Promise(function (resolve, reject) {
+let flagValue = new Promise(function (resolve, reject) {
 
     resolve('Promise resolved');
 
 });
 
-countValue.finally(
+flagValue.finally(
 
     function greet() {
 

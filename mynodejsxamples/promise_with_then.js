@@ -6,14 +6,14 @@ let countValue = new Promise(function (resolve, reject) {
 
 
 countValue
-    .then(function successValue(result) {
+    .then(function successValue1(result) {
 
         console.log('result = ' + result);
 
     })
 
-    .then(function successValue1() {
+    .then(function successValue2() {
 
-        console.log("successValue1");
+        console.log("successValue2");
 
     });
