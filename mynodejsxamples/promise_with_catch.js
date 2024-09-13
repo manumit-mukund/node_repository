@@ -1,19 +1,19 @@
-const count = true;
+const flag = false;
 
-let countValue = new Promise(function (resolve, reject) {
+let flagValue = new Promise(function (resolve, reject) {
 
-    if (count) {
+    if (flag) {
 
-        resolve("There is a count value.");
+        resolve("There is a flag value.");
 
     } else {
 
-        reject("There is no count value");
+        reject("There is no flag value");
 
     }
 });
 
-countValue.then(
+flagValue.then(
 
     function successValue(result) {
 

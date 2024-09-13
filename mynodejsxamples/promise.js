@@ -1,8 +1,8 @@
-const count = true;
+const flag = true;
 
 let countValue = new Promise(function (resolve, reject) {
 
-    if (count) {
+    if (flag) {
 
         resolve("There is a count value.");
 
