@@ -1,4 +1,4 @@
-const count = SVGComponentTransferFunctionElement;
+const count = true;
 
 let countValue = new Promise(function (resolve, reject) {
 
