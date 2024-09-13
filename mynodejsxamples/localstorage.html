@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    Lastname:
+    <p id="demo" />
+
+    <script>
+
+        localStorage.setItem("lastname", "Smith");
+
+        document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
+
+    </script>
+
+</body>
+
+</html>

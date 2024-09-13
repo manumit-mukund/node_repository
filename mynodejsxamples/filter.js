@@ -1,0 +1,5 @@
+const numbers = [5, 10, 15, 20, 25, 30];
+
+const numbersGreaterThan20 = numbers.filter(num => num > 20);
+
+console.log(numbersGreaterThan20); 

@@ -1,0 +1,5 @@
+x = 5;
+
+console.log('x = ' + x);
+
+var x; 

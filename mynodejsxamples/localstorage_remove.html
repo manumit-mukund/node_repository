@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    Name:
+    <p id="lastnameId" />
+
+    <script>
+
+        localStorage.setItem("name", "Ramesh Kumar")
+
+        var item = localStorage.getItem("name")
+
+        document.getElementById("lastnameId").innerHTML = localStorage.getItem("name");
+
+        localStorage.removeItem("name")
+
+        item = localStorage.getItem("name")
+
+        console.log('name = ' + item);  
+
+    </script>
+
+</body>
+
+</html>
