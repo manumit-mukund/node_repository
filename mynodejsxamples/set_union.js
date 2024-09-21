@@ -1,4 +1,8 @@
-function union(setA, setB) {
+let setA = new Set(['apple', 'mango', 'orange']);
+let setB = new Set(['grapes', 'apple', 'banana']);
+
+let resultSet = myUnion(setA, setB);
+function myUnion(setA, setB) {
 
     let unionSetA = new Set(setA);
 
@@ -9,10 +13,5 @@ function union(setA, setB) {
     }
     return unionSetA
 }
-
-let setA = new Set(['apple', 'mango', 'orange']);
-let setB = new Set(['grapes', 'apple', 'banana']);
-
-let resultSet = union(setA, setB);
 
 console.log('resultSet = ', resultSet);

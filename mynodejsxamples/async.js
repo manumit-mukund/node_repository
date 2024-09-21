@@ -8,7 +8,7 @@ async function f() {
 
   let result = await promise;
 
-  console.log(result);
+  console.log('result = ', result);
 }
 
 f();

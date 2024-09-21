@@ -7,7 +7,7 @@ let flagValue = new Promise(function (resolve, reject) {
 
 flagValue.finally(
 
-    function greet() {
+    function myGreet() {
 
         console.log('finally executed.');
 

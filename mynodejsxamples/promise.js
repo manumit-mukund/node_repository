@@ -13,4 +13,4 @@ let countValue = new Promise(function (resolve, reject) {
     }
 });
 
-console.log(countValue);
+console.log('countValue = ', countValue);

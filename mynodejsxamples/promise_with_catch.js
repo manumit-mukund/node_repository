@@ -15,7 +15,7 @@ let flagValue = new Promise(function (resolve, reject) {
 
 flagValue.then(
 
-    function successValue(result) {
+    function mySuccessValue(result) {
 
         console.log("successValue(result) = " + result);
 
@@ -23,7 +23,7 @@ flagValue.then(
 )
     .catch(
 
-        function errorValue(result) {
+        function myErrorValue(result) {
 
             console.log("errorValue(result) = " + result);
 
