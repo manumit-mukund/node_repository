@@ -1,8 +1,8 @@
 const person = {
 
-    name: 'Alice',
-    age: 25,
-    job: 'Engineer'
+    name: 'Ramesh',
+    age: 35,
+    job: 'Software Engineer'
 
 };
 

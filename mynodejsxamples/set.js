@@ -15,5 +15,4 @@ console.log("set3 = ", set3);
 console.log();
 
 const set4 = new Set([1, 2, 3]);
-console.log();
 console.log("set4 = ", set4.values());
