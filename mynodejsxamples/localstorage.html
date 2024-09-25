@@ -3,12 +3,22 @@
 
 <body>
 
-    Lastname:
-    <p id="demo" />
+    <div class="row">
+        <table border="0">
+            <tr>
+                <td>
+                    <p>Lastname : </p>
+                </td>
+                <td>
+                    <p id="demo"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
 
     <script>
 
-        localStorage.setItem("lastname", "Smith");
+        localStorage.setItem("lastname", "Kumar");
 
         document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
 
