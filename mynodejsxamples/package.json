@@ -1,9 +1,5 @@
 {
   "dependencies": {
-    "@reactivex/rxjs": "^6.6.7",
-    "esm": "^3.2.25",
-    "rxjs": "^6.3.2",
-    "rxjs-compat": "^6.6.7",
-    "type": "module"
+    "prompt-sync": "^4.2.0"
   }
 }
