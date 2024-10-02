@@ -1,6 +1,6 @@
 async function f() {
 
-  console.log('Please wait...for the result...');
+  console.log('Waiting for the result...');
 
   let promise = new Promise((resolve, reject) => {
 
