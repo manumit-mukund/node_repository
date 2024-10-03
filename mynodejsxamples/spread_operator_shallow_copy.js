@@ -4,6 +4,6 @@ const copiedArray = [...originalArray];
 
 copiedArray[0].push(99);
 
-console.log(originalArray);
+console.log('originalArray ', originalArray);
 
-console.log(copiedArray);
+console.log('copiedArray = ', copiedArray);
