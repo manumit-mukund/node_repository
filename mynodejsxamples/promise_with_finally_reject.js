@@ -5,14 +5,15 @@ let flagValue = new Promise(function (resolve, reject) {
 
 });
 
-flagValue.then(
+flagValue
+    .then(
 
-    function mySuccessValue(result) {
+        function mySuccessValue(result) {
 
-        console.log("successValue(result) = " + result);
+            console.log("successValue(result) = " + result);
 
-    },
-)
+        },
+    )
     .catch(
 
         function myErrorValue(result) {

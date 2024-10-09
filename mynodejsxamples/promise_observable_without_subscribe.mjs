@@ -1,17 +1,20 @@
 import { Observable } from 'rxjs';
 
-const prom = new Promise((resolve, reject) => {
+const promValue = new Promise((resolve, reject) => {
 
   //it will be executed immediately, no matter then()/catch() is used or not
   console.log('promise is defined');
-  resolve(1);
+  resolve(123);
 
 });
 
-const obs = new Observable((subscriber) => {
+console.log('promValue = ', promValue);
+
+
+const obsValue = new Observable((mySubscriber) => {
 
   //it will NOT be executed untill we subscribe to this obs
   console.log('Observable is defined');
-  subscriber.next(1);
-  
+  mySubscriber.next(456);
+
 });
