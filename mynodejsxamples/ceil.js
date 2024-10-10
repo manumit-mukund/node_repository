@@ -1,4 +1,4 @@
-let myNumber = 7.8;
+let myNumber = 7.1;
 
 let roundedNumber = Math.ceil(myNumber);
 

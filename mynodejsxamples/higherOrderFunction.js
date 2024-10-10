@@ -1,15 +1,15 @@
-function callbackFunction() {
+function myCallbackFunction() {
 
     console.log('Callback function');
 
 }
 
 
-function higherOrderFunction(func) {
+function myHigherOrderFunction(myFunc) {
 
     console.log('Higher order function')
-    func()
+    myFunc()
 
 }
 
-higherOrderFunction(callbackFunction);
+myHigherOrderFunction(myCallbackFunction);

@@ -2,9 +2,9 @@ async function f() {
 
   console.log('Waiting for the result...');
 
-  let promise_var = new Promise((resolve, reject) => {
+  let promise_var = new Promise((myRresolve, myReject) => {
 
-    setTimeout(() => resolve("resolved!"), 2000)
+    setTimeout(() => myRresolve("resolved!"), 2000)
 
   });
 

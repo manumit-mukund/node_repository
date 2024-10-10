@@ -1,3 +1,4 @@
+//--------------------------test for true..................................
 const numbers = [1, 2, 3, 4, 5];
 
 const allGreaterThanZero = numbers.every(function(number) {
@@ -6,11 +7,12 @@ const allGreaterThanZero = numbers.every(function(number) {
 
 });
 
-
-//--------------------------test for false..................................
-
 console.log('allGreaterThanZero = ', allGreaterThanZero);
 
+
+
+
+//--------------------------test for false..................................
 const numbers1 = [1, 2, 3, 4, 0, 5];
 
 const allGreaterThanZero1 = numbers1.every(function(number) {
