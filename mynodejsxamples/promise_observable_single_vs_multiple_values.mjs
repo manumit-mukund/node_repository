@@ -1,35 +1,36 @@
 import { Observable } from 'rxjs';
 
-/********** Promise **************/
-const prom = new Promise((resolve, _reject) => {
+/********************************** Promise ******************************/
+const promiseValue = new Promise((resolve, reject) => {
+
   //only this value will be resolved
   resolve(1);
 
-  //once value is resolved, that's the end,we can't resolve multiple values, so below resolve() will be ignored
+  //once value is resolved, that's the end, we can't resolve multiple values, so the resolve() below will be ignored
   resolve(2);
   resolve(3);
 
 });
 
-prom.then((value) => {
+promiseValue.then((value) => {
 
-  console.log('resolved promise value - ', value);
+  console.log('promiseValue = ', value);
 
 });
 
 /************ Observable ***********/
-const obs = new Observable((subscriber) => {
+const observableValue = new Observable((subscriber) => {
 
   //multiple values can be emitted
-  subscriber.next(1);
-  subscriber.next(2);
-  subscriber.next(3);
   subscriber.next(4);
+  subscriber.next(4);
+  subscriber.next(5);
+  subscriber.next(6);
 
 });
 
-obs.subscribe((value) => {
+observableValue.subscribe((value) => {
 
-  console.log('value emitted from obs - ', value);
-  
+  console.log('observableValue = ', value);
+
 });
