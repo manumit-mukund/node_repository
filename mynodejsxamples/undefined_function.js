@@ -1,7 +1,3 @@
-let x;
-
-console.log(x);
-
 function doSomething() {
 
 }
