@@ -17,6 +17,8 @@ const person = [
 
 ];
 
+console.log('person = ', person);
+
 const personValues = Object.values(person);
 
 console.log('personValues = ', personValues);
