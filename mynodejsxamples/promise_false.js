@@ -1,6 +1,6 @@
 const flag = false;
 
-let countValue = new Promise(function (resolve, reject) {
+let promiseValue = new Promise(function (resolve, reject) {
 
     if (flag) {
 
@@ -13,4 +13,4 @@ let countValue = new Promise(function (resolve, reject) {
     }
 });
 
-console.log('countValue = ', countValue);
+console.log('promiseValue = ', promiseValue);

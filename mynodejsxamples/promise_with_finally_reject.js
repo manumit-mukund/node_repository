@@ -1,16 +1,16 @@
 
-let flagValue = new Promise(function (resolve, reject) {
+let promiseValue = new Promise(function (resolve, reject) {
 
     reject('Promise rejected');
 
 });
 
-flagValue
+promiseValue
     .then(
 
         function mySuccessValue(result) {
 
-            console.log("successValue(result) = " + result);
+            console.log("mySuccessValue(result) = " + result);
 
         },
     )
@@ -18,7 +18,7 @@ flagValue
 
         function myErrorValue(result) {
 
-            console.log("errorValue(result) = " + result);
+            console.log("myErrorValue(result) = " + result);
 
         }
     )

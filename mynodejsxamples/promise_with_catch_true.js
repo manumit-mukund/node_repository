@@ -1,6 +1,6 @@
-const flag = WebTransportDatagramDuplexStream;
+const flag = true;
 
-let flagValue = new Promise(function (resolve, reject) {
+let promiseValue = new Promise(function (resolve, reject) {
 
     if (flag) {
 
@@ -13,12 +13,12 @@ let flagValue = new Promise(function (resolve, reject) {
     }
 });
 
-flagValue
+promiseValue
     .then(
 
         function mySuccessValue(myresult) {
 
-            console.log("successValue(myresult) = " + myresult);
+            console.log("mySuccessValue(myresult) = " + myresult);
 
         },
     )
@@ -26,7 +26,7 @@ flagValue
 
         function myErrorValue(myresult) {
 
-            console.log("errorValue(myresult) = " + myresult);
+            console.log("myErrorValue(myresult) = " + myresult);
 
         }
     );
