@@ -1,42 +1,39 @@
 import { Observable } from 'rxjs';
 
+/********************************** Promise ******************************/
 //Promsises are alwas Async
-let prom1 = new Promise((resolve, reject) => {
-    
+let promiseValue = new Promise((resolve, reject) => {
+
   //resolving  value syncchronously
-    resolve(1);
+  console.log('promise is defined');
+  resolve(1);
 
-  });
+});
 
-  prom1.then((value) => {
+promiseValue.then((value) => {
 
-    console.log('resolve promise value- ', value);
+  console.log('promiseValue = ', value);
 
-  });
+});
 
-  console.log('call stack over 1');
 
-  
-  /**************** Observable ****************/
-  
-  //Observable can be both Sync and Async
-  let obs = new Observable((subscriber) => {
-    
-    //emitting value Synchronously
-    subscriber.next(1);
-  
-    setTimeout(() => {
-      
-      //emitting value Asynchronously
-      subscriber.next(2);
-    }, 2000);
+/********************************* Observable *****************************/
+//Observable can be both Sync and Async
+let observableValue = new Observable((subscriber) => {
 
-  });
-  
-  obs.subscribe((value) => {
+  //emitting value Synchronously
+  subscriber.next(2);
 
-    console.log('value emitted from obs - ', value);
+  setTimeout(() => {
 
-  });
-  
-  console.log('call stack over 2');
+    //emitting value Asynchronously
+    subscriber.next(3);
+  }, 2000);
+
+});
+
+observableValue.subscribe((value) => {
+
+  console.log('observableValue = ', value);
+
+});
