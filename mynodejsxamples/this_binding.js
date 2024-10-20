@@ -2,6 +2,7 @@ const person = {
 
     firstName: 'Ramesh',
     lastName: 'Kumar',
+
     fullName: function () {
 
       return `${this.firstName} ${this.lastName}`;
