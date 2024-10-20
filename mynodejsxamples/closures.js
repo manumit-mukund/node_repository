@@ -1,10 +1,10 @@
 function init() {
 
-    var name = "Hello init";
+    var message = "Hello init";
 
     function displayName() {
 
-        console.log(name);
+        console.log('message = ', message);
 
     }
 
