@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page with throttle handling</title>
 </head>
 
 <body>
+
     <button id="throttle">Click Me</button>
 
     <script>
 
-        const btn = document.querySelector("#throttle");
+        const clicMeButton = document.querySelector("#throttle");
 
         const throttleFunction = (func, delay) => {
 
@@ -22,7 +22,15 @@
 
                 let now = new Date().getTime();
 
-                console.log(now - prev, delay);
+                console.log("Start the throttle check...");
+
+                console.log("prev = " + prev);
+
+                console.log("now = " + now);
+
+                console.log("(now - prev) = " + (now - prev));
+
+                console.log("delay = " + delay);
 
                 if (now - prev > delay) {
 
@@ -33,13 +41,13 @@
             }
         }
 
-        btn.addEventListener("click",
+        clicMeButton.addEventListener("click",
 
             throttleFunction(() => {
 
-                console.log("button is clicked")
+                console.log("BUTTON IS CLICKED")
 
-            }, 1500));
+            }, 2000));
     </script>
 
 </body>
