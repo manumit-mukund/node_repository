@@ -1,7 +1,8 @@
-const months = ["Jan", "Feb", "Mar", "Apr"];
+const values = [5, 1, 3, 2, 4];
 
-const sortedMonths = months.toSorted();
+console.log('values = ', values);
 
-console.log ('months = ', months);
+const sortedValues = values.toSorted((a, b) => a - b);
 
-console.log ('sortedMonths = ', sortedMonths);
+console.log('sortedValues = ', sortedValues);
+
