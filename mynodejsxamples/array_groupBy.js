@@ -1,3 +1,7 @@
+require("core-js/actual/array/group-by-to-map");
+require("core-js/actual/array/group-by");
+
+
 const people = [
 
   { name: 'Alice', age: 21 },
