@@ -20,7 +20,7 @@ Error: Cannot find module 'C:\mygitrepositories\node_repository\array_groupBy.js
 Troubleshoot:
 
 Step 1 : rm package-lock.json
-Step 2: rm -rf node_modules
+Step 2: rm -r node_modules
 Step 3: npm install
 --- Wait until the installation has fully completed---
 
