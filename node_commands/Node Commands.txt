@@ -1,0 +1,15 @@
+npm update react-scripts --save
+
+npm install -g npm-check-updates
+
+npm install
+
+npm audit fix
+
+npm audit fix --force
+
+npm i -D react-router-dom
+
+npm i -D react-router-dom
+
+npm start
