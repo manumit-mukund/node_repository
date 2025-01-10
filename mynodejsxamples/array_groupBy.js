@@ -14,3 +14,5 @@ const people = [
 const groupedByAge = people.groupBy(person => person.age);
 
 console.log(groupedByAge);
+
+console.table(groupedByAge);
