@@ -13,9 +13,10 @@ function myCallbackFunction2() {
 
 function myHigherOrderFunction(myFunc1, myFunc2) {
 
-    console.log('Higher order function')
-    myFunc1()
-    myFunc2()
+    console.log('Higher order function');
+    
+    myFunc1();
+    myFunc2();
 
 }
 

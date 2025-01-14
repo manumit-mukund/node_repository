@@ -7,8 +7,9 @@ function myCallbackFunction() {
 
 function myHigherOrderFunction(myFunc) {
 
-    console.log('Higher order function')
-    myFunc()
+    console.log('Higher order function');
+    
+    myFunc();
 
 }
 

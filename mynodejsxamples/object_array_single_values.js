@@ -1,10 +1,14 @@
-const person = [{
+const person = [
 
-    name: 'Ramesh',
-    age: 35,
-    job: 'Software Engineer'
+    {
 
-}];
+        name: 'Ramesh',
+        age: 35,
+        job: 'Software Engineer'
+
+    }
+
+];
 
 console.log('person = ', person);
 
