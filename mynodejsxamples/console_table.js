@@ -1,7 +1,9 @@
 function Person(name, age, city) {
+
     this.name = name;
     this.age = age;
     this.city = city;
+    
 }
 
 let person1 = new Person("P1", 30, "New Delhi");
