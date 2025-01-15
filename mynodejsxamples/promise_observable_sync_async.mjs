@@ -28,7 +28,7 @@ let observableValue = new Observable((subscriber) => {
 
     //emitting value Asynchronously
     subscriber.next(3);
-  }, 2000);
+  }, 3000);
 
 });
 

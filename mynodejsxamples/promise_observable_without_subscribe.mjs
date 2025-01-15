@@ -8,12 +8,12 @@ const promiseValue = new Promise((resolve, reject) => {
 
 });
 
-console.log('promiseValue = ', promiseValue);
+//console.log('promiseValue = ', promiseValue); This is also working fine
 
 
 const observableValue = new Observable((mySubscriber) => {
 
-  //it will NOT be executed untill we subscribe to this obs
+  //it will NOT be executed untill we subscribe to this observer
   console.log('Observable is defined');
   mySubscriber.next(444);
 
