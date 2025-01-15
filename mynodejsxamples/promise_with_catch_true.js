@@ -20,7 +20,7 @@ promiseValue
 
             console.log("mySuccessValue(myresult) = " + myresult);
 
-        },
+        }
     )
     .catch(
 
