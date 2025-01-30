@@ -13,8 +13,14 @@ const people = [
   
 ];
 
+console.log('people before groupBy: ', people);
+
 const groupedByAge = people.groupBy(person => person.age);
 
-console.log(groupedByAge);
+console.log('\npeople after groupBy: ', people);
+
+console.log('\ngroupedByAge: ', groupedByAge);
+
+console.log('\ngroupedByAg in a tabular format');
 
 console.table(groupedByAge);
