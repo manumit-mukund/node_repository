@@ -1,8 +1,8 @@
-const points = [40, 100, 1, 5, 25, 10];
+const array = [4, 10, 1, 5, 2, 11];
 
-console.log('points = ', points);
+console.log('array = ', array);
 
-points.sort(function (a, b) {
+array.sort(function (a, b) {
 
     return a - b
 
@@ -10,9 +10,9 @@ points.sort(function (a, b) {
 
 );
 
-console.log('sorted points = ', points);
+console.log('sorted array = ', array);
 
-points.sort(function (a, b) {
+array.sort(function (a, b) {
 
     return b - a
 
@@ -20,4 +20,4 @@ points.sort(function (a, b) {
 
 );
 
-console.log('reverse sorted points = ', points);
+console.log('reverse sorted array = ', array);
