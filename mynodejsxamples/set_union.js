@@ -2,6 +2,10 @@ let setA = new Set(['apple', 'mango', 'orange']);
 
 let setB = new Set(['grapes', 'apple', 'banana']);
 
+console.log("setA = ", setA);
+
+console.log("\nsetB = ", setB);
+
 let resultSet = myUnion(setA, setB);
 function myUnion(setA, setB) {
 
@@ -15,4 +19,4 @@ function myUnion(setA, setB) {
     return unionSetAB
 }
 
-console.log('resultSet = ', resultSet);
+console.log('\nresultSet = ', resultSet);

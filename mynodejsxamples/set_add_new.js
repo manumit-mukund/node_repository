@@ -6,3 +6,9 @@ console.log('set =', set.values());
 
 set.add(1);
 console.log('set =', set.values());
+
+set.add('a');
+console.log('set =', set.values());
+
+set.add('Hello');
+console.log('set =', set.values());
