@@ -1,4 +1,4 @@
-let text = "Hello,World,How,Are,You";
+let text = "Hello, World, How, Are, You";
 
 let result = text.split(",");
 
