@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
     "core-js": "^3.39.0",
     "node": "^21.6.1",
     "prompt-sync": "^4.2.0",
+    "react-redux": "^9.2.0",
     "rxjs": "^6.3.2",
     "rxjs-compat": "^6.6.7"
   }
