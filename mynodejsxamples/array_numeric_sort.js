@@ -10,7 +10,7 @@ array.sort(function (a, b) {
 
 );
 
-console.log('sorted array = ', array);
+console.log('\nsorted array = ', array);
 
 array.sort(function (a, b) {
 
@@ -20,4 +20,4 @@ array.sort(function (a, b) {
 
 );
 
-console.log('reverse sorted array = ', array);
+console.log('\nreverse sorted array = ', array);
