@@ -8,3 +8,5 @@ console.log();
 
 console.log('fruitsReversed = ', fruitsReversed);
 
+console.log('\nfruits = ', fruits);
+

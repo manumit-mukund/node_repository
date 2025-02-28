@@ -8,7 +8,7 @@ const people = [
   { name: 'N2', age: 22 },
   { name: 'N3', age: 22 },
   { name: 'N4', age: 21 },
-  { name: 'N5', age: 25, city: "Delhi" },
+  { name: 'N5', age: 25, city: "Delhi" }
  
   
 ];
