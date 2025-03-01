@@ -4,7 +4,7 @@ console.log('values = ', values);
 
 const sortedValues = values.toSorted((a, b) => a - b);
 
-console.log('values = ', values);
+console.log('\nvalues after toSorted() = ', values);
 
-console.log('sortedValues = ', sortedValues);
+console.log('\nsortedValues = ', sortedValues);
 

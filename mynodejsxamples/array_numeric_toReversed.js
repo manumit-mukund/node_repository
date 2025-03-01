@@ -4,4 +4,6 @@ console.log('values = ', values);
 
 const sortedValues = values.toReversed();
 
-console.log('sortedValues = ', sortedValues);
+console.log('\nvalues after toReversed() = ', values);
+
+console.log('\nsortedValues = ', sortedValues);
