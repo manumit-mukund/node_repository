@@ -9,10 +9,10 @@ const arr = [
 
 const obj = Object.groupBy(arr, (a) => a.year);
 
-console.log('\narr in the default format');
+console.log('\narr after groupBy', arr);
 
-console.log(obj); 
+console.log('\nobj in the default format', obj);
 
-console.log('\narr in a tabular format');
+console.log('\naobj in a tabular format');
 
 console.table(obj);

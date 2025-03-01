@@ -11,8 +11,12 @@ const people = [
   
 ];
 
-const groupedByAge = people.groupBy(person => person.age);
+const peopleGroupedByAge = people.groupBy(person => person.age);
 
-console.log(groupedByAge);
+console.log('people in  normal format after groupBy', people);
 
-console.table(groupedByAge);
+console.log('peopleGroupedByAge in  normal format', peopleGroupedByAge);
+
+console.table('\peopleGroupedByAge in  table format');
+
+console.table(peopleGroupedByAge);
