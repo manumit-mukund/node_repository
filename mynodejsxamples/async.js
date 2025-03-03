@@ -10,7 +10,7 @@ async function f() {
 
   let result = await promise_var;
 
-  console.log('result = ', result);
+  console.log('\nresult = ', result);
 }
 
 f();
