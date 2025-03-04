@@ -2,9 +2,9 @@ console.log('Start');
 
 setTimeout(() => {
 
-  console.log('Delayed message: Hello World');
+  console.log('\nDelayed message: Hello World');
 
 }, 2000);
 
 
-console.log('End');
+console.log('\nEnd');

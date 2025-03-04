@@ -1,6 +1,6 @@
 function myCallbackFunction() {
 
-    console.log('Callback function');
+    console.log('\nCallback function');
 
 }
 
