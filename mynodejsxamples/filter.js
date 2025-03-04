@@ -4,4 +4,4 @@ console.log('numbers = ', numbers);
 
 const numbersGreaterThan20 = numbers.filter(num => num > 20);
 
-console.log('numbersGreaterThan20 = ', numbersGreaterThan20); 
+console.log('\nnumbersGreaterThan20 = ', numbersGreaterThan20); 

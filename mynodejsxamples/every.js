@@ -21,4 +21,4 @@ const allGreaterThanZero1 = numbers1.every(function(number) {
 
 });
 
-console.log('allGreaterThanZero1 = ', allGreaterThanZero1);
+console.log('\nallGreaterThanZero1 = ', allGreaterThanZero1);
