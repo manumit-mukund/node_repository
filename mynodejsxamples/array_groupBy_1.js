@@ -7,20 +7,16 @@ const people = [
   { name: 'N1', age: 21 },
   { name: 'N2', age: 22 },
   { name: 'N3', age: 22 },
-  { name: 'N4', age: 21 },
-  { name: 'N5', age: 25, city: "Delhi" }
- 
+  { name: 'N4', age: 21 }
   
 ];
 
-console.log('people before groupBy: ', people);
+const peopleGroupedByAge = people.groupBy(person => person.age);
 
-const groupedByAge = people.groupBy(person => person.age);
+console.log('people in  normal format after groupBy', people);
 
-console.log('\npeople after groupBy: ', people);
+console.log('peopleGroupedByAge in  normal format', peopleGroupedByAge);
 
-console.log('\ngroupedByAge: ', groupedByAge);
+console.table('\peopleGroupedByAge in  table format');
 
-console.log('\ngroupedByAg in a tabular format');
-
-console.table(groupedByAge);
+console.table(peopleGroupedByAge);
