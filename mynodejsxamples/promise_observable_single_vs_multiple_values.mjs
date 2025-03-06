@@ -14,7 +14,7 @@ const promiseValue = new Promise((resolve, reject) => {
 
 promiseValue.then((value) => {
 
-  console.log('promiseValue = ', value);
+  console.log('\npromiseValue = ', value);
 
 });
 
@@ -31,6 +31,6 @@ const observableValue = new Observable((subscriber) => {
 
 observableValue.subscribe((value) => {
 
-  console.log('observableValue = ', value);
+  console.log('\nobservableValue = ', value);
 
 });
