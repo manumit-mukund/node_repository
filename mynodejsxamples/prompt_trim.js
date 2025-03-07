@@ -11,6 +11,6 @@ console.log('trimmedInput1  =', trimmedInput);
 
 userInput = prompt('Enter something:');
 
-trimmedInput = userInput.replace(/\s/g, '');
+trimmedInput = userInput.replace(/\s/g, ', ');
 
 console.log('trimmedInput2  =', trimmedInput);

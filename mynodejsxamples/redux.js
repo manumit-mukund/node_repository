@@ -1,7 +1,9 @@
 const {createStore} = require('redux');
 
 const initialState = {
+
     name : "initial"
+
 }
 const mReducer = (state = initialState,action)=>{
 
@@ -19,11 +21,15 @@ const mReducer = (state = initialState,action)=>{
 };
 
 const mSubscriber = ()=>{
-    console.log("Name : " + store.getState().name);
+    console.log("\nName : " + store.getState().name);
 }
 
 const store = createStore(mReducer);
+
 store.subscribe(mSubscriber);
+
 store.dispatch({type:"MANU"});
+
 store.dispatch({type:"SRUJAL"});
+
 store.dispatch({type:"RAJIV"});
