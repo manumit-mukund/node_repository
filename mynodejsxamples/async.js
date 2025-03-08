@@ -1,5 +1,7 @@
 async function f() {
 
+  let result = 'Initial value';
+
   console.log('Waiting for the result...');
 
   let promise_var = new Promise((myRresolve, myReject) => {
@@ -8,7 +10,7 @@ async function f() {
 
   });
 
-  let result = await promise_var;
+  result = await promise_var;
 
   console.log('\nresult = ', result);
 }
