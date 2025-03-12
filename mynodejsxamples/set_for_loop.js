@@ -1,6 +1,6 @@
-const set = new Set([1, 2, 3]);
+const setVar = new Set([1, 2, 3]);
 
-for (let i of set) {
+for (let i of setVar) {
 
     console.log(i);
     

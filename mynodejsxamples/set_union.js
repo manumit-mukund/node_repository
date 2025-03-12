@@ -1,22 +1,5 @@
-let setA = new Set(['apple', 'mango', 'orange']);
+const set1 = new Set([1, 2, 3]);
 
-let setB = new Set(['grapes', 'apple', 'banana']);
+const set2 = new Set([4, 5, 6]);
 
-console.log("setA = ", setA);
-
-console.log("\nsetB = ", setB);
-
-let resultSet = myUnion(setA, setB);
-function myUnion(setA, setB) {
-
-    let unionSetAB = new Set(setA);
-
-    for (let i of setB) {
-
-        unionSetAB.add(i);
-
-    }
-    return unionSetAB
-}
-
-console.log('\nresultSet = ', resultSet);
+console.log(set1.union(set2)); // Set(6) { 2, 4, 6, 8, 1, 9 }
