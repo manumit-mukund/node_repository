@@ -4,8 +4,8 @@ console.log('set =', set.values());
 
 set.delete(2);
 
-console.log('set =', set.values());
+console.log('\nset =', set.values());
 
 set.delete(4);
 
-console.log('set =', set.values());
+console.log('\nset =', set.values());

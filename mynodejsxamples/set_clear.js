@@ -4,4 +4,4 @@ console.log('set =', set.values());
 
 set.clear();
 
-console.log('set =', set.values());
+console.log('\nset =', set.values());
