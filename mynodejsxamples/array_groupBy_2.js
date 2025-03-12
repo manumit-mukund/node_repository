@@ -7,7 +7,7 @@ const arr = [
 
 ];
 
-const obj = Object.groupBy(arr, (a) => a.year);
+const obj = Object.groupBy(arr, a => a.year);
 
 console.log('\narr after groupBy', arr);
 

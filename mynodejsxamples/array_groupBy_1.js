@@ -15,8 +15,8 @@ const peopleGroupedByAge = people.groupBy(person => person.age);
 
 console.log('people in  normal format after groupBy', people);
 
-console.log('peopleGroupedByAge in  normal format', peopleGroupedByAge);
+console.log('\npeopleGroupedByAge in  normal format', peopleGroupedByAge);
 
-console.table('\peopleGroupedByAge in  table format');
+console.table('\npeopleGroupedByAge in  table format');
 
 console.table(peopleGroupedByAge);
