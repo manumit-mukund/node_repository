@@ -8,7 +8,10 @@ function add(x){
 
   }
   
-  var addTwo = add(2);
-  
  console.log('add(3)(4) = ',  add(3)(4));
- console.log('addTwo(4) = ',  addTwo(4));
+
+ var addTwo = add(2);
+
+ console.log('\naddTwo( = ',  addTwo);
+
+ console.log('\naddTwo(4) = ',  addTwo(4));

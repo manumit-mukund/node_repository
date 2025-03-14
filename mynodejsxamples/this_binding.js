@@ -1,18 +1,19 @@
 const person = {
 
-    firstName: 'Ramesh',
-    lastName: 'Kumar',
+  firstName: 'Ramesh',
 
-    fullName: function () {
+  lastName: 'Kumar',
 
-      return `${this.firstName} ${this.lastName}`;
+  fullName: function () {
 
-    },
-    
-    arrowFullName: () => `${this.firstName} ${this.lastName}`
+    return `${this.firstName} ${this.lastName}`;
 
-  };
-  
-  console.log('person.fullName() = ', person.fullName());
+  },
 
-  console.log('person.arrowFullName() = ', person.arrowFullName());
+  arrowFullName: () => `${this.firstName} ${this.lastName}`
+
+};
+
+console.log('person.fullName() = ', person.fullName());
+
+console.log('\nperson.arrowFullName() = ', person.arrowFullName());

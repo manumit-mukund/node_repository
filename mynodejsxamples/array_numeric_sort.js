@@ -10,6 +10,8 @@ array.sort(function (a, b) {
 
 );
 
+array.sort(); //sorted array =  [ 1, 10, 11, 2, 4, 5 ]
+
 console.log('\nsorted array = ', array);
 
 array.sort(function (a, b) {
