@@ -8,4 +8,4 @@ let number1 = 7.8;
 
 let floorNumber1 = Math.floor(number1);
 
-console.log('floorNumber1 = ', floorNumber1);
+console.log('\nfloorNumber1 = ', floorNumber1);
