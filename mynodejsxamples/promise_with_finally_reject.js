@@ -27,7 +27,7 @@ promiseValue
 
         function myGreet() {
 
-            console.log('finally executed.');
+            console.log('\nfinally executed.');
 
         }
     );

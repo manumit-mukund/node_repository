@@ -10,7 +10,7 @@ promiseValue.finally(
     function myGreet() {
 
         console.log('finally executed.');
-        console.log('promiseValue = ', promiseValue);
+        console.log('\npromiseValue = ', promiseValue);
 
     }
 );
