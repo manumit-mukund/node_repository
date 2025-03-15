@@ -4,9 +4,9 @@ console.log('fruits = ', fruits);
 
 const fruitsReversed = fruits.toReversed();
 
-console.log();
+console.log('\nfruits after toReversed = ', fruits);
 
-console.log('fruitsReversed = ', fruitsReversed);
+console.log('\nfruitsReversed = ', fruitsReversed);
 
-console.log('\nfruits = ', fruits);
+
 

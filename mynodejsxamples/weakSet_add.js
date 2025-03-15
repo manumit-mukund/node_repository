@@ -9,4 +9,4 @@ let obj = {
 
 weakSet.add(obj);
 
-console.log('weakSet = ', weakSet);
+console.log('\nweakSet = ', weakSet);
