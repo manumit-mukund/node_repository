@@ -17,5 +17,5 @@ console.log('\nweakMap = ', weakMap);
 // Deleting a key-value pair from the WeakMap
 weakMap.delete(user1);
 
-console.log(weakMap.get(user1));
+console.log('\nweakMap.get(user1)', weakMap.get(user1));
 

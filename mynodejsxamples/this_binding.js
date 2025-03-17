@@ -14,6 +14,8 @@ const person = {
 
 };
 
-console.log('person.fullName() = ', person.fullName());
+console.log('person.firstName = ', person.firstName);
+
+console.log('\nperson.fullName() = ', person.fullName());
 
 console.log('\nperson.arrowFullName() = ', person.arrowFullName());

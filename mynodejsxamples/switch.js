@@ -14,7 +14,7 @@ switch (fruit) {
     case "Orange":
         console.log("It's an orange.");
         break;
-        
+
     default:
         console.log("It's some other fruit.");
         break;
