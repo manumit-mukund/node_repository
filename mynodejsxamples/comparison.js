@@ -6,6 +6,8 @@ console.log("(num == str) : " + (num == str));
 
 console.log("\n(num != str) : " + (num != str));
 
-console.log("\n(num !== str) : " + (num !== str));
+console.log("\n--------------------------------------------------------------------------------------");
 
-console.log("\n(num === str) : " + (num === str)); 
+console.log("\n(num === str) : " + (num === str));
+
+console.log("\n(num !== str) : " + (num !== str));
