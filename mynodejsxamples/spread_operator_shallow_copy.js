@@ -4,13 +4,13 @@ const copiedArray = [...originalArray];
 
 console.log('originalArray ', originalArray);
 
-console.log('copiedArray = ', copiedArray);
+console.log('\ncopiedArray = ', copiedArray);
 
 copiedArray[0].push(99);
 
 console.log('\noriginalArray ', originalArray);
 
-console.log('copiedArray = ', copiedArray);
+console.log('\ncopiedArray = ', copiedArray);
 
 copiedArray.push(99);
 

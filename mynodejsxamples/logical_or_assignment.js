@@ -5,20 +5,20 @@ console.log('a.duration = ', a.duration);
 
 
 a.title ||= 'My title';
-console.log('a.title = ', a.title);
+console.log('\na.title = ', a.title);
 
 const x = 1;
 x ||= 2;
-console.log('x = ', x);
+console.log('\nx = ', x);
 
 let x1;
 x1 ||= 2;
-console.log('x1 = ', x1);
+console.log('\nx1 = ', x1);
 
 let x2 = 3;
 x2 = 4;
-console.log('x2 = ', x2);
+console.log('\nx2 = ', x2);
 
 let y ='';
 y ||= 2;
-console.log('y = ', y);
+console.log('\ny = ', y);
