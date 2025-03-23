@@ -1,35 +1,46 @@
-const {createStore} = require('redux');
+const { createStore } = require('redux');
 
 const initialState = {
 
-    name : "initial"
+    name: "initial"
 
 }
-const mReducer = (state = initialState,action)=>{
+const mReducer = (state = initialState, action) => {
 
-    const newState = {...state};
+    var newState = { ...state };
 
-    if(action.type==="MANU"){
+    if (action.type === "MANU") {
+
         newState.name = "Manu";
+
     }
 
-    if(action.type==="SRUJAL"){
+    else if (action.type === "SRUJAL") {
+
         newState.name = "Srujal";
+
+    }
+
+    else {
+
+        newState = { ...initialState };
     }
 
     return newState;
 };
 
-const mSubscriber = ()=>{
+const mSubscriber = () => {
+
     console.log("\nName : " + store.getState().name);
+
 }
 
 const store = createStore(mReducer);
 
 store.subscribe(mSubscriber);
 
-store.dispatch({type:"MANU"});
+store.dispatch({ type: "MANU" });
 
-store.dispatch({type:"SRUJAL"});
+store.dispatch({ type: "SRUJAL" });
 
-store.dispatch({type:"RAJIV"});
+store.dispatch({ type: "RAJIV" });
