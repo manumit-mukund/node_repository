@@ -2,13 +2,13 @@ const values = [5, 1, 3, 2, 4];
 
 console.log('values = ', values);
 
-const sortedValues = values.toSorted((a, b) => a - b);
+const toSortedValues = values.toSorted((a, b) => a - b);
 
 console.log('\nvalues after toSorted() = ', values);
 
-console.log('\nsortedValues = ', sortedValues);
+console.log('\ntoSortedValues = ', toSortedValues);
 
-const sortedValuesReversed = values.toSorted((a, b) => b - a);
+const toSortedValuesReversed = values.toSorted((a, b) => b - a);
 
-console.log('\nsortedValuesReversed = ', sortedValuesReversed);
+console.log('\ntoSortedValuesReversed = ', toSortedValuesReversed);
 
