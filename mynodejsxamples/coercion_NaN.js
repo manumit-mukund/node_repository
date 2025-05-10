@@ -1,5 +1,3 @@
-console.log(NaN == NaN); 
+console.log('(NaN == NaN) = ', (NaN == NaN)); 
 
-console.log();
-
-console.log(isNaN(NaN)); 
+console.log('\nisNaN(NaN) = ', isNaN(NaN)); 

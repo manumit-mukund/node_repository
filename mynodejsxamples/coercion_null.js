@@ -1,9 +1,17 @@
-console.log(null == undefined);
+let x;
 
-console.log();
+console.log('x =', x);
 
-console.log(null === undefined); 
+let y = null;
 
-console.log();
+console.log('\ny =', y);
 
-console.log(null + 1); 
+console.log('\n(x == y) = ', (x == y));
+
+console.log('\n(x === y) = ', (x === y));
+
+console.log('\n(null == undefined) = ', (null == undefined));
+
+console.log('\n(null === undefined) = ', (null === undefined)); 
+
+console.log('\n(null + 1) = ', (null + 1)); 

@@ -6,6 +6,14 @@ console.log(Number("1a3"));
 
 console.log();
 
+console.log(parseInt("1a3"));
+
+console.log();
+
+console.log(parseInt("a3"));
+
+console.log();
+
 console.log(parseInt("42px"));
 
 console.log();
