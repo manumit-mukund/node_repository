@@ -13,5 +13,5 @@
  //console.log('x = ' + x); //ReferenceError: x is not defined
  //console.log('\ny = ' + y); //ReferenceError: y is not defined
 
-console.log('\nz = ' + z);
+console.log('\nout of scope, z = ' + z);
 
