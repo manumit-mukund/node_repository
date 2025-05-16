@@ -1,9 +1,5 @@
 console.log("5" - 2);
 
-console.log();
+console.log("\n5" * 2);
 
-console.log("5" * 2);
-
-console.log();
-
-console.log("10" / "2");
+console.log("\n10" / "2");
