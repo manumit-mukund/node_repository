@@ -2,23 +2,23 @@ const apiUrl = 'http://localhost:9001/users/getall';
 
 // Make a GET request
 fetch(apiUrl)
-  .then(response => {
+  .then(myresponse => {
 
-    if (!response.ok) {
+    if (!myresponse.ok) {
 
       throw new Error('Network response was not ok');
     }
 
-    return response.json();
+    return myresponse.json();
 
   })
-  .then(data => {
+  .then(mydata => {
 
-    console.log(data);
+    console.log(mydata);
 
   })
-  .catch(error => {
+  .catch(myerror => {
 
-    console.error('Error:', error);
+    console.error('Error:', myerror);
 
   });

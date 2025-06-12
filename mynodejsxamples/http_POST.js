@@ -19,22 +19,22 @@ fetch(apiUrl, {
   body: JSON.stringify(postData),
 
 })
-  .then(response => {
+  .then(myresponse => {
 
-    if (!response.ok) {
+    if (!myresponse.ok) {
 
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`HTTP error! status: ${myresponse.status}`);
     }
 
-    return response.json(); // Parse the JSON response
+    return myresponse.json(); // Parse the JSON response
   })
-  .then(data => {
+  .then(mydata => {
 
-    console.log('Success:', data);
+    console.log('Success:', mydata);
 
   })
-  .catch(error => {
+  .catch(myerror => {
 
-    console.error('Error:', error);
+    console.error('Error:', myerror);
 
   });
