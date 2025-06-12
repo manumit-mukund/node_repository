@@ -9,6 +9,7 @@
     "prompt-sync": "^4.2.0",
     "react-redux": "^9.2.0",
     "rxjs": "^6.3.2",
-    "rxjs-compat": "^6.6.7"
+    "rxjs-compat": "^6.6.7",
+    "xhr2": "^0.2.1"
   }
 }
