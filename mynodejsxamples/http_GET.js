@@ -19,6 +19,6 @@ fetch(apiUrl)
   })
   .catch(myerror => {
 
-    console.error('Error:', myerror);
+    console.error('myerror:', myerror);
 
   });
