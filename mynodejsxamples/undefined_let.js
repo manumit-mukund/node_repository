@@ -4,4 +4,4 @@ console.log(x);
 
 let obj = {};
 
-console.log(obj.property);
+console.log('obj.property = ', obj.property);
