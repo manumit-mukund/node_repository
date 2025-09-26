@@ -9,7 +9,7 @@
     "node": "^21.6.1",
     "prompt-sync": "^4.2.0",
     "react-redux": "^9.2.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^0.0.0",
     "rxjs": "^6.3.2",
     "rxjs-compat": "^6.6.7",
     "xhr2": "^0.2.1"
