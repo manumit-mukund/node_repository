@@ -2,7 +2,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
     "@types/memwatch-next": "^0.3.6",
-    "core-js": "^3.45.1",
+    "core-js": "^3.32.0",
     "heapdump": "^0.3.15",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
