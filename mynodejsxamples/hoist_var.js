@@ -4,4 +4,4 @@ console.log('x = ' + x);
 
 var x; //It will work even if we comment out this line
 
-console.log('\nx = ' + x);
+console.log('\nx = ' + x); //It will work even if we comment out this line
