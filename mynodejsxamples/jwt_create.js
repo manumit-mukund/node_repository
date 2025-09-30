@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
-const secretKey = 'abcde12345';
+
+const secretKey = 'srujal';
 
 const token = jwt.sign({
 
