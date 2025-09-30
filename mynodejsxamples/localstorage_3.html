@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div class="row">
+        <table border="1">
+            <tr>
+                <td>
+                    <p>Fisrtname : </p>
+                </td>
+                <td>
+                    <p id="p2"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+
+        const data = {
+            firstname: "Manu",
+            lastname: "Kumar"
+        };
+
+        localStorage.setItem("myUniqueKey", JSON.stringify(data));
+
+        const retrievedData = JSON.parse(localStorage.getItem("myUniqueKey"));
+
+        console.log(retrievedData.firstname); // Output: "Manu"       
+
+        document.getElementById("p2").innerHTML = retrievedData.firstname;
+
+    </script>
+
+</body>
+
+</html>
