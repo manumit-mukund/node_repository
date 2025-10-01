@@ -6,14 +6,14 @@ let promiseValue = new Promise(function (resolve, reject) {
 });
 
 promiseValue
-    .then(
+    // .then(
 
-        function mySuccessValue(result) {
+    //     function mySuccessValue(result) {
 
-            console.log("mySuccessValue(result) = " + result);
+    //         console.log("mySuccessValue(result) = " + result);
 
-        }
-    )
+    //     }
+    // )
     .catch(
 
         function myErrorValue(result) {
