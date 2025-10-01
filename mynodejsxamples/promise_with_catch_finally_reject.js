@@ -13,7 +13,7 @@ promiseValue
             console.log("myErrorValue(result) = " + result);
 
         }
-    )
+    ) // It's a must to have a catch() method to handle the rejected promise.
 
     .finally(
 
