@@ -1,6 +1,6 @@
 // addition.spec.js
 const { test, expect } = require('@playwright/test');
-const { addNumbers } = require('./function_addNumbers'); // Import the add function
+const { addNumbers } = require('function_addNumbers'); // Import the add function
 
 test('should correctly add two numbers', async ({ page }) => {
   // Call the add function directly in your test
