@@ -1,11 +1,9 @@
-// src/math.js
-export function addNumbers(...numbers) {
+// math.js
+function add(a, b) {
+  return a + b;
+}
 
-  if (numbers.length === 0) {
-
-    return 0;
-
-  }
-  
-  return numbers.reduce((sum, current) => sum + current, 0);
+// Make the function accessible globally for testing in the browser context
+if (typeof window !== 'undefined') {
+  window.add = add;
 }
