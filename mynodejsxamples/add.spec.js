@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 test('should correctly add two numbers', async ({ page }) => {
 
-  await page.goto('file://C:/mygitrepositories/node_repository/mynodejsxamples/index.html'); 
+  await page.goto('file:///C:/mygitrepositories/node_repository/mynodejsxamples/index.html'); 
 
  
   const sum = await page.evaluate(({ num1, num2 }) => {
