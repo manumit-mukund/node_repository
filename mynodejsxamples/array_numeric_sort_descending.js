@@ -4,24 +4,13 @@ console.log('array = ', array);
 
 array.sort(function (a, b) {
 
-    return a - b
+    return b - a
 
-}
+});
 
-);
-
-console.log('\nsorted array ascending = ', array);
+console.log('\nsorted array descending = ', array);
 
 array.sort(); //sorted array =  [ 1, 10, 11, 2, 4, 5 ]
 
 console.log('\nsorted array using array.sort() = ', array);
 
-array.sort(function (a, b) {
-
-    return b - a
-
-}
-
-);
-
-console.log('\nsorted array descending = ', array);
