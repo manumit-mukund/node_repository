@@ -8,7 +8,7 @@ console.log('\nvalues after toSorted() = ', values);
 
 console.log('\ntoSortedValues = ', toSortedValues);
 
-const toSortedValuesReversed = values.toSorted((a, b) => b - a);
+const toSortedValuesDescending = values.toSorted((a, b) => b - a);
 
-console.log('\ntoSortedValuesReversed = ', toSortedValuesReversed);
+console.log('\ntoSortedValuesDescending = ', toSortedValuesDescending);
 
