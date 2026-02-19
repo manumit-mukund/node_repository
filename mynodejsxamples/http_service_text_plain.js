@@ -6,7 +6,7 @@ http
       response.writeHead(200, { 'Content-Type': 'text/plain' });
 
       // Send the response text as "Hello World"
-      response.end('Hello World\n');
+      response.end('Hello World');
 
    })
    .listen(3100);
