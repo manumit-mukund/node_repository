@@ -19,13 +19,15 @@
     <script>
 
         const data = {
+
             firstname: "Manu",
             lastname: "Kumar"
+
         };
 
-        localStorage.setItem("myUniqueKey", JSON.stringify(data));
+        localStorage.setItem("mydata", JSON.stringify(data));
 
-        const retrievedData = JSON.parse(localStorage.getItem("myUniqueKey"));
+        const retrievedData = JSON.parse(localStorage.getItem("mydata"));
 
         console.log(retrievedData.firstname); // Output: "Manu"       
 
