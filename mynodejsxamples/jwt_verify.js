@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 const secretKey = 'srujal';
 
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJtYW51IiwiaWF0IjoxNzU5MjE4OTA4LCJleHAiOjE3NTkyMjI1MDh9.-7ZoOXLdiVn_aDpbUAKnG2yxmx3Z1SuLqwEOUSTyJvw";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJtYW51IiwiaWF0IjoxNzcxNTc4ODc2LCJleHAiOjE3NzE1ODI0NzZ9.jDymbCx7Mv765flzvnyzLEkfDFmr0uhbHAmZNBshRqA";
 
 console.log('token = ', token);
 
