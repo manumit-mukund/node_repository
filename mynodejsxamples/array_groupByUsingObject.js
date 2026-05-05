@@ -1,4 +1,6 @@
-    
+require ("core-js/actual/object/group-by");
+
+
 const arr = [
 
     { year: "2024", id: 0 },
@@ -8,12 +10,12 @@ const arr = [
 
 ];
 
-const obj = Object.groupBy(arr, a => a.year);
+const arrgroupBy = Object.groupBy(arr, a => a.year);
 
 console.log('\narr after groupBy', arr);
 
-console.log('\nobj in the default format', obj);
+console.log('\narrgroupBy in the default format', arrgroupBy);
 
-console.log('\naobj in a tabular format');
+console.log('\narrgroupBy in a tabular format');
 
-console.table(obj);
+console.table(arrgroupBy);
