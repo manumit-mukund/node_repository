@@ -1,7 +1,7 @@
 require ("core-js/actual/object/group-by");
 
 
-const arr = [
+const people = [
 
     { year: "2024", id: 0 },
     { year: "2023", id: 1 },
@@ -10,9 +10,9 @@ const arr = [
 
 ];
 
-const arrgroupBy = Object.groupBy(arr, a => a.year);
+const arrgroupBy = Object.groupBy(people, person => person.year);
 
-console.log('\narr after groupBy', arr);
+console.log('\npeople after groupBy', people);
 
 console.log('\narrgroupBy in the default format', arrgroupBy);
 
