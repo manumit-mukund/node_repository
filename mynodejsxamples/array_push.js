@@ -1,12 +1,14 @@
-const fruits = ["apple", "banana"];
+const originalFruits = ["apple", "banana"];
 
-console.log('fruits : ', fruits);
+console.log('originalFruits : ', originalFruits);
 
-fruits.push("orange");
+const fruits1= originalFruits.push("orange");
 
-console.log('\nfruits : ', fruits);
+console.log('\noriginalFruits after push : ', originalFruits);
 
-fruits.push("grape", "kiwi");
+console.log('\nfruits1 : ', fruits1);
 
-console.log('\nfruits : ', fruits);
+originalFruits.push("grape", "kiwi");
+
+console.log('\noriginalFruits after double push : ', originalFruits);
 
