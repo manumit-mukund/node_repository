@@ -9,3 +9,7 @@ console.log('\nfruits : ', fruits);
 fruits.splice(1, 1, "kiwi");
 
 console.log('\nfruits : ', fruits);
+
+fruits.splice(1, 2); 
+
+console.log('\nfruits : ', fruits);
