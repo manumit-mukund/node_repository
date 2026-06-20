@@ -15,3 +15,5 @@ console.log('\n(null == undefined) = ', (null == undefined));
 console.log('\n(null === undefined) = ', (null === undefined)); 
 
 console.log('\n(null + 1) = ', (null + 1)); 
+
+console.log('\n(undefined + 1) = ', (undefined + 1)); 
