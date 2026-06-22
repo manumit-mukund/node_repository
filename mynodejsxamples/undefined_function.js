@@ -2,7 +2,7 @@ function doSomething() {
 
 }
 
-console.log(doSomething()); //undefined because it's not retruning anything
+console.log('doSomething() = ', doSomething()); //undefined because it's not retruning anything
 
 function doSomething1() {
 
@@ -10,4 +10,4 @@ function doSomething1() {
 
 }
 
-console.log(doSomething1());
+console.log('doSomething1() = ', doSomething1());
