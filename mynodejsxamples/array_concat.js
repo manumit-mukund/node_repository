@@ -2,11 +2,11 @@ const originalFruits = ["apple", "banana"];
 
 console.log('originalFruits : ', originalFruits);
 
-const newFruits = originalFruits.concat("orange");
+const newFruits1 = originalFruits.concat("orange");
 
 console.log('\noriginalFruits after concat : ', originalFruits);
 
-console.log('\nnewFruits : ', newFruits);
+console.log('\nnewFruits1 : ', newFruits1);
 
 const newFruits2 = originalFruits.concat("grapes", "kiwi");
 
